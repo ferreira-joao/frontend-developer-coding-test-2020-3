@@ -1,0 +1,29 @@
+#home_title {
+    width: 40%;
+    margin: 30px 50px;
+    color: var(--text-color);
+}
+
+#home_title h1 {
+    margin-bottom: 15px;
+    color: #000;
+}
+
+#home_filters {
+    width: 100%;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#filter_container {
+    display: flex;
+    align-items: center;
+}
+
+#filter_container p{
+    color: var(--text-color);
+}

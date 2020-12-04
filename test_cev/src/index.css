@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,5 +8,44 @@
 
 body {
     background-color: #FFFFFF;
-    padding: 50px;
+    font-family: Roboto;
+}
+
+:root {
+    --text-color: #666666;
+    --primary-color: #002B56;
+}
+
+/********CONFIGURAÇÕES DA SCROLL-BAR********/
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+/********CONFIGURAÇÕES DA SCROLL-BAR/MOZILA********/
+::-moz-scrollbar {
+    width: 5px;
+}
+  
+::-moz-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+::-moz-scrollbar-thumb {
+    background: #888; 
+}
+  
+::-moz-scrollbar-thumb:hover {
+    background: #555; 
 }
