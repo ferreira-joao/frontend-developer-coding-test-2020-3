@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
 
-function SimpleCheckbox({label, id, value, ...rest}){
+function SimpleCheckbox({label, id, value, onChange, ...rest}){
     return(
-        <div id="checkbox_component">
+        <div id="checkbox_component" onChange={onChange}>
             <label id="checkbox_container" htmlFor={id}>
                 {label}
             

@@ -1,14 +1,17 @@
-#home_title {
+/*####### HEADER #######*/
+.home_title {
     width: 40%;
     margin: 30px 50px;
     color: var(--text-color);
 }
 
-#home_title h1 {
+.home_title h2 {
     margin-bottom: 15px;
+    font-weight: normal;
     color: #000;
 }
 
+/*####### FILTERS #######*/
 #home_filters {
     width: 100%;
     border-top: 1px solid #eee;
@@ -26,4 +29,47 @@
 
 #filter_container p{
     color: var(--text-color);
+}
+
+/*####### RESTAURANTS LIST #######*/
+ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    list-style: none;
+    margin: 30px 50px;
+}
+
+ul h3 {
+    margin-top: 10px;
+}
+
+#image {
+    width: 280px;
+    height: 180px;
+}
+
+#restaurant_data {
+    height: 150px;
+}
+
+#category {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+#category p {
+    font-size: 13px;
+    color: var(--text-color);
+}
+
+/*####### FOOTER #######*/
+#footer {
+    margin: 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

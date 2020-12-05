@@ -1,4 +1,4 @@
-#category_checkbox_component {
+#price_radio_component {
     width: 130px;
     display: flex;
     justify-content: left;
@@ -6,12 +6,12 @@
     margin: 10px;
 }
 
-#category_checkbox_component label {
+#price_radio_component label {
     color: var(--primary-color);
     margin-bottom: 5px;
 }
 
-#category_checkbox_container {
+#price_radio_container {
     cursor: pointer;
     display: block;
     position: relative;
@@ -19,7 +19,7 @@
     user-select: none;
 }
 
-#category_checkbox_container input {
+#price_radio_container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -27,7 +27,7 @@
     width: 0;
 }
 
-#category_checkbox_mark {
+#price_radio_mark {
     position: absolute;
     top: 0;
     left: 0;
@@ -38,21 +38,21 @@
     border-radius: 20px;
 }
 
-#category_checkbox_container input:checked ~ #category_checkbox_mark {
+#price_radio_container input:checked ~ #price_radio_mark {
     background-color: #000;
 }
 
-#category_checkbox_mark:after {
+#price_radio_mark:after {
     content: "";
     position: absolute;
     display: none;
 }
 
-#category_checkbox_container input:checked ~ #category_checkbox_mark:after {
+#price_radio_container input:checked ~ #price_radio_mark:after {
     display: block;
 }
 
-#category_checkbox_mark_inside {
+#price_radio_mark_inside {
     position: absolute;
     top: 50%;
     left: 50%;
