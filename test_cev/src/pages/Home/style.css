@@ -32,7 +32,7 @@
 }
 
 /*####### RESTAURANTS LIST #######*/
-ul {
+#home_ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 40px;
@@ -40,7 +40,7 @@ ul {
     margin: 30px 50px;
 }
 
-ul h3 {
+#home_ul h3 {
     margin-top: 10px;
 }
 
