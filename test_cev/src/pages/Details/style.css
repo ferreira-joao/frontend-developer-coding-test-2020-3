@@ -1,0 +1,117 @@
+/*** HEADER ***/
+#detail_header {
+    width: 40%;
+    margin: 30px 50px;
+    color: var(--text-color);
+}
+
+#detail_header h2 {
+    margin-bottom: 10px;
+    font-weight: normal;
+    color: #000;
+}
+
+#categorie_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*** LOCATION ***/
+#location_info {
+    width: 100%;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+}
+
+#location_map {
+    width: 600px;
+    height: 180px;
+}
+
+#images_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    margin: 30px 50px;
+}
+
+.restaurant_image {
+    width: 280px;
+    height: 180px;
+}
+
+#location_adress {
+    position: relative;
+}
+
+/*** REVIEWS ***/
+#review_count {
+    width: 40%;
+    margin: 10px 50px;
+    font-weight: normal;
+    color: #000;
+}
+
+#reviews_list {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+}
+
+#detail_ul {
+    margin: 0;
+    display: table-column;
+    list-style: none;
+    width: 1000px;
+}
+
+#detail_ul li {
+    margin-bottom: 30px;
+}
+
+#profile_comments {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80px;
+    width: 950px;
+    padding-right: 200px;
+}
+
+#user_data {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    width: 200px;
+    height: 82px;
+}
+
+#avatar_pic {
+    background: var(--text-color);
+    width: 100px;
+    height: 100px;
+}
+
+#user_name_date {
+    width: 180px;
+}
+
+#user_name_date p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#rating_comment {
+    width: 600px;
+}
+
+#rating_comment p {
+    font-size: 14px;
+}

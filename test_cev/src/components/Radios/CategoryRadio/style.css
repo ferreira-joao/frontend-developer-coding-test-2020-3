@@ -1,0 +1,64 @@
+#category_radio_component {
+    width: 130px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin: 10px;
+}
+
+#category_radio_component label {
+    color: var(--primary-color);
+    margin-bottom: 5px;
+}
+
+#category_radio_container {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    user-select: none;
+}
+
+#category_radio_container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+#category_radio_mark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #FFF;
+    border: 1px solid #C8C8C8;
+    border-radius: 20px;
+}
+
+#category_radio_container input:checked ~ #category_radio_mark {
+    background-color: #000;
+}
+
+#category_radio_mark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+#category_radio_container input:checked ~ #category_radio_mark:after {
+    display: block;
+}
+
+#category_radio_mark_inside {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 17px;
+    width: 17px;
+    border: 2px solid #FFF;
+    border-radius: 20px;
+}
