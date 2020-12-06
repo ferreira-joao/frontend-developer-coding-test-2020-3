@@ -16,7 +16,7 @@ function Home() {
 
     const history = useHistory();
 
-    const api_key = 'TdqZTujomJfRLUYqcy3fIJ1gx6q_OMP4O535TUuAEq8HmHgt-Ra2QyFXuQH7m1hSPjlPp5Tr9oiZtl7LFEAiQr7WskG33W16LQdmbn5a_p6KfReEWk-vB3uw9IPJX3Yx';
+    const api_key = process.env.API_KEY;
 
     const [restaurants, setRestaurants] = useState([]);
     const [isOpen, setOpen] = useState(false);

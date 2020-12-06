@@ -16,7 +16,7 @@ function Details() {
     const [reviewsInfo, setReviewsInfo] = useState([]);
     const [isLoading, setLoading] = useState(true);
 
-    const api_key = 'TdqZTujomJfRLUYqcy3fIJ1gx6q_OMP4O535TUuAEq8HmHgt-Ra2QyFXuQH7m1hSPjlPp5Tr9oiZtl7LFEAiQr7WskG33W16LQdmbn5a_p6KfReEWk-vB3uw9IPJX3Yx';
+    const api_key = process.env.API_KEY;
 
     useEffect(() => {
         try {

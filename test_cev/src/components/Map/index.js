@@ -10,7 +10,7 @@ function Map({lat,lng}) {
   
   return (
         <LoadScript
-            googleMapsApiKey={'AIzaSyBVn0f1PQGKbFeguWrcYMXLX_onr-nVufg'}>
+            googleMapsApiKey={process.env.API_GOOGLE_MAPS}>
             <GoogleMap
                 mapContainerStyle={mapStyles}
                 zoom={13}
